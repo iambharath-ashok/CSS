@@ -1,0 +1,64 @@
+/* *{
+    font-family: Verdana;
+    font-size: 10px;
+    margin: 0;
+}
+
+body {
+    background:#fff;
+}
+
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
+
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+}
+
+.blocks div {
+    flex:0 0 100px;
+    background: #ccc;
+    padding:40px 0;
+    text-align: center;
+
+}
+
+
+.one {    order: 4;}
+.two {    order: 1;}
+.three {    order: 0;}
+.four {    order: -4;} */
+
+
+*{
+    font-family: verdana;
+    font-size:20px;
+    margin:0;
+}
+
+body {
+    background: #eee;
+}
+
+#blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#blocks div {
+    padding: 40px;
+    background: #777;
+    text-align: center;
+    flex:0 0 100px;
+}
+
+.one {
+    order: 4;
+}

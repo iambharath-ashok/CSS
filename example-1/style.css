@@ -1,0 +1,61 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+}
+
+
+
+.wrapper {
+    width: 100%;
+    min-width:960px;
+    background: #fff;
+}
+
+nav {
+    background:#333;
+}
+
+nav ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: #777;
+}
+
+/*social base styles*/
+
+
+
+/*flex styles*/
+
+@media screen and (min-width:768px){
+
+    nav ul {
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    
+    nav li {
+        flex: 1 1 100px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between
+    }
+
+}

@@ -1,0 +1,56 @@
+Previous to Flex box
+- Diff positional properties such as absolute
+- Floats and clear fixes
+- Fixed hieghts for columns
+
+
+Flex Containers
+- Apply display type to flex
+- All the child elements will become the flex items
+- Flex Items will grow and shrink relative to each other
+- we can control their order of flow
+- display: flex;
+
+
+Flex Grow
+- how element grows relative to other items
+- will be applied to child items
+- flex-grow: 2; 
+
+Flex Shrink
+- how element shrink relative to other items
+- will be applied to child items
+- flex-shrink: 3; 
+- more the shrink the lesser will the item width when browser window reduses
+
+Flex Wrap
+- will be applied to flex-container
+- specifies how to wrap the items depending on the window sizes
+- flex-wrap: wrap;wrap-reverse; none;
+
+Flex Basis
+- flex basis will be similar min-width
+- But flex basis will be responsive -> item width will be shrink to window size
+- flex-basis will be applied to child flex items
+- flex basis have more effect if we use along with flex grow property
+- flex-basis: 200px;
+- flex : grow shrink basis;
+- flex : 1 0 300px;
+
+Flex Menu
+- justify-content is used to adjust the flex items
+
+Flex Axis
+- flex items always follows the main axis
+- flex-flow: row, column, column-reverse, nowrap, wrap;
+
+
+Flex Alig Items
+- follows the cross axis
+- align-items: flex-start,flex-end, center;
+
+Flex content ordering
+- order property is used to order the items within the flex container
+
+
+ 
